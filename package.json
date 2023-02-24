@@ -1,11 +1,31 @@
 {
+  "name": "module-14-challange",
+  "version": "1.0.0",
+  "description": "- - - -\r # module-14-challange",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dorsariahi/module-14-challange.git"
+  },
   "dependencies": {
     "bcrypt": "^5.1.0",
-    "connect-session-sequelize": "^7.1.5",
+   "connect-session-sequelize": "^7.1.5",
     "dotenv": "^16.0.3",
-    "express-handlebars": "^6.0.7",
+   "express-handlebars": "^6.0.7",
     "express-session": "^1.17.3",
-    "mysql2": "^3.1.2",
-    "sequelize": "^6.29.0"
-  }
+   "mysql2": "^3.1.2",
+   "sequelize": "^6.29.0"
+},
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dorsariahi/module-14-challange/issues"
+  },
+  "homepage": "https://github.com/dorsariahi/module-14-challange#readme"
 }
