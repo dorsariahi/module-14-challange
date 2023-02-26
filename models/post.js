@@ -11,9 +11,8 @@ Post.init(
             primaryKey: true,
             autoIncrement: true,
         },
-        name: {
+        content: {
             type: DataTypes.STRING,
-            allowNull: false,
         },
         body: {
             type: DataTypes.STRING,
@@ -25,6 +24,15 @@ Post.init(
                 model: 'user',
                 key: 'id',
             },
+        },
+        title: {
+            type: DataTypes.STRING,
+            allowNull: false,
+        },
+        date_created: {
+            type: DataTypes.DATE,
+            allowNull: false,
+            defaultValue: DataTypes.NOW,
         },
     },
     {
